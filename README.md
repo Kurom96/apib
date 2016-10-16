@@ -33,4 +33,4 @@ you can find output.html in the directory.
 $ npm start
 ```
 
-access: http://localhost:8000/api/v1/communities/1/posts
+access: http://localhost:3001/api/v1/communities/1/posts

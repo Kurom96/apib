@@ -1,5 +1,5 @@
 FORMAT: 1A
-HOST: http://localhost:8000/api/v1
+HOST: http://localhost:3001/api/v1
 
 # HOGEアプリ API仕様書
 

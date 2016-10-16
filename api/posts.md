@@ -24,7 +24,7 @@ SNSフィードのタイムラインに表示する投稿をコミュニティ�
                 "is_liked": true,
                 "like_count": 1,
                 "comment_count": 1,
-                "picture": "https://localhost:3000/images/articles/3.jpg",
+                "picture": "https://localhost:3001/images/articles/3.jpg",
                 "created_at": "2015-08-05T08:40:51.620Z",
                 "updated_at": "2015-08-05T08:40:51.620Z"
             },
@@ -37,7 +37,7 @@ SNSフィードのタイムラインに表示する投稿をコミュニティ�
                 "is_liked": false,
                 "like_count": 1,
                 "comment_count": 1,
-                "picture": "https://localhost:3000/images/articles/4.jpg",
+                "picture": "https://localhost:3001/images/articles/4.jpg",
                 "created_at": "2015-08-05T08:40:51.620Z",
                 "updated_at": "2015-08-05T08:40:51.620Z"
             }
@@ -95,7 +95,7 @@ SNSフィードのタイムラインに表示する投稿をコミュニティ�
             "is_liked": true,
             "like_count": 1,
             "comment_count": 1,
-            "image": "https://localhost:3000/images/articles/11.jpg",
+            "image": "https://localhost:3001/images/articles/11.jpg",
             "created_at": "2015-08-05T08:40:51.620Z",
             "updated_at": "2015-08-05T08:40:51.620Z"
         }
