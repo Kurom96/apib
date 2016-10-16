@@ -10,3 +10,4 @@ tmp
 Thumbs.db
 node_modules
 dist
+output.html
