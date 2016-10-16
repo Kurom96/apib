@@ -1,0 +1,25 @@
+{
+  "name": "apib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preview": "aglio -i index.md -s",
+    "print": "aglio -i index.md -o output.html",
+    "start": "aglio -c -i index.md -o index_suite.md && api-mock index_suite.md -p 3001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Kurom96@github.com/Kurom96/apib.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kurom96/apib/issues"
+  },
+  "homepage": "https://github.com/Kurom96/apib#readme",
+  "dependencies": {
+    "aglio": "^2.2.1",
+    "api-mock": "^0.3.2"
+  }
+}
