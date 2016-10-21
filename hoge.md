@@ -1,7 +1,7 @@
 FORMAT: 1A
 HOST: http://localhost:3001/api/v1
 
-# Group グループ名（Group Name）
+# Group ユーザ管理（Group Name）
 
 ## ユーザ情報（API Endpoint） [/users]
 
@@ -26,6 +26,8 @@ HOST: http://localhost:3001/api/v1
 
     + Attributes
         + accessToken: f58ba22059f5a8aa8f346e0f40987adab326041fac99029c909bef2c6300821a (string, required) - アクセストークン
+
+## ユーザ情報取得 [/v1/groups/{groupId}/users{?userId,mailAddress}]
 
 ### 取得 [GET]
 

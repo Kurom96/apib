@@ -9,19 +9,19 @@ HOST: http://localhost:3001/api/v1
 
 ## 基本仕様
 
-たとえばAPIの基本仕様をツラツラと書いたり。
+たとえばAPIのレスポンスコード仕様をツラツラと書いたり。
 
-ステータスコード | 意味     | レスポンス |
---------------| ------- | -------- |
-200           | OK      | JSON       |
-201           | created | JSON       |
-204           | No Content | nil |
-400           | Bad Request | エラーメッセージ欄参照 |
-401           | Unauthorized | 認証エラー |
-403           | Forbedden | エラーメッセージ欄参照 |
-404           | Not Found | JSON |
-500           | Internal Server Error | nil |
-503           | Service Unavailable | nil |
+|ステータスコード | 意味     | レスポンス |
+|--------------:|:-------| -------- |
+|200           | OK      | JSON       |
+|201           | created | JSON       |
+|204           | No Content | nil |
+|400           | Bad Request | エラーメッセージ欄参照 |
+|401           | Unauthorized | 認証エラー |
+|403           | Forbedden | エラーメッセージ欄参照 |
+|404           | Not Found | JSON |
+|500           | Internal Server Error | nil |
+|503           | Service Unavailable | nil |
 
 
 <!-- include(api/oauth.md) -->

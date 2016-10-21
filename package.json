@@ -6,6 +6,7 @@
   "scripts": {
     "preview": "aglio -i index.md -s",
     "print": "aglio -i index.md -o output.html",
+    "build": "aglio -c -i index.md -o index_suite.md",
     "start": "aglio -c -i index.md -o index_suite.md && api-mock index_suite.md -p 3001"
   },
   "repository": {
